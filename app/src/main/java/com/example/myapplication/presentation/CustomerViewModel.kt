@@ -8,6 +8,7 @@ import com.example.myapplication.domain.GetCustomersUseCase
 import com.example.myapplication.domain.InsertCustomerUseCase
 import com.example.myapplication.domain.UpdateCustomerUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
+import dagger.hilt.android.scopes.ViewModelScoped
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
